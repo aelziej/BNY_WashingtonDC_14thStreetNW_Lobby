@@ -1,0 +1,76 @@
+{
+    "Building": {
+        "Room": {
+            "Type": 1,
+            "Name": "Lobby",
+            "_comment2": "This is the lobby configuration documentation."
+        },
+        "Program": {
+            "Id": "03.12.2026",
+            "Name": ".lpz"
+        },
+        "Source": {
+        },
+        "Device": {
+            "Graphic": {
+                "1": {
+                    "IsEnable": true,
+                    "Name": "Video Wall",
+                    "Network": "192.168.104.80",
+                    "Port": 9999,
+                    "Username": "123456",
+                    "Password": "123456"
+                }
+            },
+            "DSP": {
+                "1": {
+                    "IsEnable": true,
+                    "Network": "192.168.104.60",
+                    "Port": 1710,
+                    "_comment": "Q-Sys Core 8"
+                },
+                "Fader": {
+                    "1": {
+                        "IsEnable": true,
+                        "Name": "Lav Mic 1",
+                        "TypeLine": false
+                    },
+                    "2": {
+                        "IsEnable": true,
+                        "Name": "Lav Mic 2",
+                        "TypeLine": false
+                    },
+                    "3": {
+                        "IsEnable": true,
+                        "Name": "HH Mic 1",
+                        "TypeLine": false
+                    },
+                    "4": {
+                        "IsEnable": true,
+                        "Name": "HH Mic 2",
+                        "TypeLine": false
+                    },
+                    "5": {
+                        "IsEnable": true,
+                        "Name": "Mood",
+                        "TypeLine": true
+                    },
+                    "6": {
+                        "IsEnable": true,
+                        "Name": "Bluetooth",
+                        "TypeLine": true
+                    }
+                }
+            }
+        },
+        "Panel": {
+            "1": {
+                "Device": {
+                    "Type": "TS-1070-B-S",
+                    "Network": null,
+                    "Physical": null
+                }
+            } 
+        }
+    }
+}
